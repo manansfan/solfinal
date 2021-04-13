@@ -1,0 +1,131 @@
+.navbar{
+  height: 15%;
+  font-family: 'Crimson Text', serif;
+}
+
+.box {
+  color: black;
+  /* padding: 1em; */
+  text-align: center;
+  background-color: #efefef;
+}
+.poorva{ background-color:white ;}
+.tweets   { background-color: #f1f1f1; }
+.replies  { background-color: ; }
+.search   { background-color: ; }
+.messages { background-color: #f1f1f1; }
+
+/* Our Grid Code */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50vh;
+  margin: 0 10% 0 10%;
+}
+.person{
+  height: 50vh;
+  width: 100%;
+}
+
+.text{
+  margin: 6% 0;
+}
+.bio{
+  margin-top: 12%;
+  width: 90%;
+  margin-left: 10%;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2rem;
+}
+.name{
+  font-family: 'Crimson Pro', serif;
+  font-size: 2rem;
+}
+.designation{
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.2rem;
+}
+#laptop{
+  margin-top: 15%;
+}
+
+.aboutphone{
+  display: none;
+}
+.poorva{
+  margin-left: 10%;
+}
+.head{
+  font-family: 'Crimson Pro', serif;
+  font-size: 3rem;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+
+  .navbar{
+  height: auto;
+}
+.aboutus{
+  display: none;
+}
+.phone{
+ margin-top: 1%;
+}
+.navbar{
+  height: auto;
+}
+.aboutphone{
+  display: block;
+}
+.box{
+  float: left;
+  width: 35%;
+  height: 380px;
+}
+.box1{
+  width: 35%;
+  height: 380px;
+}
+  .person{
+    width: : 30%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .fifteen{
+    margin-left: 15%;
+  }
+  .ten{
+    margin-left: 15%;
+  }
+
+}
+
+/* --------------------------------------------- */
+/* footer */
+/* --------------------------------------------- */
+#footer {
+text-align: center;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: -50px;
+padding-bottom: 0.1rem;
+background-color: #0779e4;
+color: black;
+
+}
+.footer-text{
+color: black;
+}
+.copyright{
+margin-top: -17px;
+
+}
+.social-icon {
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-top: 0px;
+}
